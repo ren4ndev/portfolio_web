@@ -1,5 +1,5 @@
 body {
-    background-color: #fdfdfd;
+    background-color: white;
 }
 
 p {
@@ -20,19 +20,23 @@ em {
 }
 
 .sobre {
-    align-items: center;
-    padding: 25px;
-    height: auto;
+    background: #f8f8f8;
+    height: 400px;
+    padding: 30px;
 }
 
-.sobre_foto {
-    height: 100%;
-}
 
-.sobre_foto img {
-    width: 250px;
+.sobre_foto{
+    width: 20%;
     border-radius: 50%;
     float: left;
+    padding: 10px 30px;
+    margin: 0 auto;
+}
+
+.texto-sobre {
+    float: right;
+    width: 70%;
     padding: 10px 30px;
 }
 
