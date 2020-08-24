@@ -1,0 +1,21 @@
+.nome-completo {
+    font-family: 'Alata', 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', 'Alata, sans-serif';
+}
+
+body {
+    background-color: #fdfdfd;
+}
+em {
+    font-weight: bold;
+}
+.habilidade-html, .habilidade-css, .habilidade-js {
+    font-size: 1.2em;
+}
+.foto-perfil img {
+    width: 200px;
+    border-radius: 50%;
+}
