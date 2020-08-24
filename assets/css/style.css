@@ -1,21 +1,47 @@
-.nome-completo {
-    font-family: 'Alata', 'Roboto', sans-serif;
+body {
+    background-color: #fdfdfd;
 }
 
 p {
     font-family: 'Roboto', 'Alata, sans-serif';
 }
 
-body {
-    background-color: #fdfdfd;
-}
 em {
     font-weight: bold;
 }
-.habilidade-html, .habilidade-css, .habilidade-js {
+
+.nome {
+    text-align: center;
+}
+
+.nome-completo {
+    font-family: 'Alata', 'Roboto', sans-serif;
+    font-size: 3em;
+}
+
+.sobre {
+    align-items: center;
+    padding: 25px;
+    height: auto;
+}
+
+.sobre_foto {
+    height: 100%;
+}
+
+.sobre_foto img {
+    width: 250px;
+    border-radius: 50%;
+    float: left;
+    padding: 10px 30px;
+}
+
+.habilidade_html, .habilidade_css, .habilidade_js {
     font-size: 1.2em;
 }
-.foto-perfil img {
-    width: 200px;
-    border-radius: 50%;
+
+
+.habilidades {
+    clear: both;
 }
+
