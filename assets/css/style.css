@@ -1,0 +1,51 @@
+body {
+    background-color: white;
+}
+
+p {
+    font-family: 'Roboto', 'Alata, sans-serif';
+}
+
+em {
+    font-weight: bold;
+}
+
+.nome {
+    text-align: center;
+}
+
+.nome-completo {
+    font-family: 'Alata', 'Roboto', sans-serif;
+    font-size: 3em;
+}
+
+.sobre {
+    background: #f8f8f8;
+    height: 400px;
+    padding: 30px;
+}
+
+
+.sobre_foto{
+    width: 20%;
+    border-radius: 50%;
+    float: left;
+    padding: 10px 30px;
+    margin: 0 auto;
+}
+
+.texto-sobre {
+    float: right;
+    width: 70%;
+    padding: 10px 30px;
+}
+
+.habilidade_html, .habilidade_css, .habilidade_js {
+    font-size: 1.2em;
+}
+
+
+.habilidades {
+    clear: both;
+}
+
