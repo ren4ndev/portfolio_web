@@ -1,0 +1,59 @@
+.teste {
+   height: 1000px;
+  background: rgb(36 , 36 , 35);
+}
+.cabecalho {
+  height: 90px;
+  padding: 10px 30px;
+  background-color: rgba(51, 53, 51, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cabecalho-titulo {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cabecalho-icon {
+  width: 5%;
+  color: rgb(247, 224, 17);
+}
+.cabecalho-nome {
+  padding-left: 10px;
+  font-family: 'Alata', sans-serif;
+  font-size: 2.3em;
+  color: rgb(247, 224, 17);
+}
+
+.menu {
+  font-family: 'Alata', sans-serif;
+}
+
+.menu-lista {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.menu-item {
+  padding-left: 20px;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: rgb(247, 224, 17);
+}
+
+.redes {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.redes-img {
+  padding-right: 10px;
+  width: 30px;
+}
