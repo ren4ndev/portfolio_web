@@ -6,6 +6,8 @@ Esse _[aqui](https://www.linkedin.com/in/renancoliveira/)_ é o meu link do Link
 Abaixo segue uma lista da estruturação e das etapas do desenvolvimento do projeto: :rocket:
 
 - [X] Estruturação inicial da página estática (HTML)
+- [X] Iniciando o cabeçalho
+- [ ] Cabeçalho finalizado
 - [ ] Definição de layout e conteúdo
 - [ ] Criação do conteúdo
 - [ ] Reestruturação do HTML
@@ -13,3 +15,6 @@ Abaixo segue uma lista da estruturação e das etapas do desenvolvimento do proj
 - [ ] Adição da página Projetos
 - [ ] Adição da página Sobre
 - [ ] Adição da página Contato
+- [ ] Tornando o site responsivo
+- [ ] Resolvendo problemas de acessibilidade
+- [ ] Adicionando interações e animações à página
