@@ -1,23 +1,39 @@
 .apresentacao {
     height: 80vh;
+    margin: 50px 0;
+    background: rgb(36, 36, 36);
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-evenly;
+    box-shadow: 0px 15px 10px black;
 }
 
 .apresentacao-imagem {
     height: 50%;
-    border: 7px solid rgb(247, 224, 17);
+    border: 7px solid rgb(60, 110, 113);
     border-radius: 30% 0 30% 0;
     box-shadow: 15px 20px 10px rgb(0, 0, 0);
 }
 
 .apresentacao-texto {
     width: 35%;
-    color: rgb(247, 224, 17);
+    padding: 20px 40px;
+    background-color: rgba(217, 217, 217);
+    color: rgb(60, 110, 113);
+    text-align: justify;
+    box-shadow: 15px 20px 10px rgb(0, 0, 0);
 }
 
 .apresentacao-titulo {
     margin-bottom: 1em;
+}
+
+.apresentacao-texto p {
+    margin-bottom: 0.5em;
+}
+
+#link-trybe {
+    text-decoration: none;
+    color: rgb(53, 53, 53);
 }
