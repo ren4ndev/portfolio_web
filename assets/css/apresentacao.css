@@ -1,0 +1,23 @@
+.apresentacao {
+    height: 80vh;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.apresentacao-imagem {
+    height: 50%;
+    border: 7px solid rgb(247, 224, 17);
+    border-radius: 30% 0 30% 0;
+    box-shadow: 15px 20px 10px rgb(0, 0, 0);
+}
+
+.apresentacao-texto {
+    width: 35%;
+    color: rgb(247, 224, 17);
+}
+
+.apresentacao-titulo {
+    margin-bottom: 1em;
+}

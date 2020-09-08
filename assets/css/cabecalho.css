@@ -1,15 +1,11 @@
-.teste {
-   height: 1000px;
-  background: rgb(36 , 36 , 35);
-}
 .cabecalho {
   height: 90px;
   padding: 10px 30px;
   background-color: rgba(51, 53, 51, 1);
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
 }
 .cabecalho-titulo {
   width: 60%;
