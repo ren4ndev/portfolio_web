@@ -1,6 +1,6 @@
 .cabecalho {
   padding: 30px 30px;
-  background-color: rgba(51, 53, 51, 1);
+  background-color: rgb(217, 217, 217);
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -15,13 +15,13 @@
 }
 .cabecalho-icon {
   width: 2.3em;
-  color: rgb(247, 224, 17);
+  color: rgb(60, 110, 113);
 }
 .cabecalho-nome {
   padding-left: 10px;
   font-family: 'Alata', sans-serif;
   font-size: 2.3em;
-  color: rgb(247, 224, 17);
+  color: rgb(60, 110, 113);
 }
 
 .menu {
@@ -41,7 +41,7 @@
 
 .menu-link {
   text-decoration: none;
-  color: rgb(247, 224, 17);
+  color: rgb(60, 110, 113);
 }
 
 .redes {
