@@ -7,7 +7,7 @@ Abaixo segue uma lista da estruturação e das etapas do desenvolvimento do proj
 
 - [X] Estruturação inicial da página estática (HTML)
 - [X] Iniciando o cabeçalho
-- [ ] Cabeçalho finalizado
+- [X] Cabeçalho finalizado
 - [ ] Definição de layout e conteúdo
 - [ ] Criação do conteúdo
 - [ ] Reestruturação do HTML
