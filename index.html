@@ -1,56 +1,89 @@
 <!DOCTYPE html>
-    <html lang="pt-br">
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio - Renan Oliveira</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portfólio - Renan Oliveira</title>
-        <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./assets/css/reset.css">
-        <link rel="stylesheet" href="./assets/css/style.css">
-        <link rel="stylesheet" href="./assets/css/cabecalho.css">
-        <link rel="stylesheet" href="./assets/css/apresentacao.css">
-    </head>
+  <body>
+    <header class="header-container">
+      <div class="header-title">
+        <h1 class="title-name">
+          <i class="large material-icons">devices</i> Renan Oliveira |
+          Desenvolvedor Full Stack
+        </h1>
+      </div>
 
-    <body>
-        <header class="cabecalho">
-            
-            <div class="cabecalho-titulo">
-                <img class="cabecalho-icon" src="./assets/img/code.png" alt="">
-                <h1 class="cabecalho-nome">Renan Oliveira | Desenvolvedor Full Stack</h1>
-            </div>
-            
-            <nav class="menu">
-                <ul class="menu-lista">
-                    <li class="menu-item"><a class="menu-link" href="#">Projetos</a></li>
-                    <li class="menu-item"><a class="menu-link" href="#">Sobre</a></li>
-                    <li class="menu-item"><a class="menu-link" href="#">Contato</a></li>
-                </ul>
-            </nav>
-           
-            <ul class="redes">
-                <li><a class="redes-link" href=""><img class="redes-img" src="./assets/img/github-image.png" alt=""></a></li>
-                <li><a class="redes-link" href=""><img class="redes-img" src="./assets/img/linkedin.png" alt=""></a></li>
-                <li><a class="redes-link" href=""><img class="redes-img" src="./assets/img/twitter.png" alt=""></a></li>
-            </ul>
+      <nav class="menu">
+        <ul class="menu-list">
+          <li class="menu-item"><a class="menu-link" href="#">Projetos</a></li>
+          <li class="menu-item"><a class="menu-link" href="#">Sobre</a></li>
+          <li class="menu-item"><a class="menu-link" href="#">Contato</a></li>
+        </ul>
+        <ul class="social">
+          <li class="social-item">
+            <a class="social-link" href=""
+              ><img class="social-img" src="./img/github-image.png" alt=""
+            /></a>
+          </li>
+          <li class="social-item">
+            <a class="social-link" href=""
+              ><img class="social-img" src="./img/linkedin.png" alt=""
+            /></a>
+          </li>
+          <li class="social-item">
+            <a class="social-link" href=""
+              ><img class="social-img" src="./img/twitter.png" alt=""
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-        </header>
+    <section class="about">
+      <img
+        class="about-img"
+        src="./img/Foto de perfil Linkedin.png"
+        alt="Foto de perfil - Renan Oliveira"
+      />
 
-        <section class="apresentacao">
-            
-            <img class="apresentacao-imagem" src="./assets/img/Foto de perfil Linkedin.png" alt="Foto de perfil - Renan Oliveira">
-            
-            <div class="apresentacao-texto">
-                <h2 class="apresentacao-titulo">Sobre mim...</h2>
-                <p>
-                    Comecei minha carreira profissional na indústria, mas o <strong>desenvolvimento de software</strong> é o que eu amo fazer. Sou apaixonado por tecnologia e desde que descobri minha vocação profissional, me empenho em adquirir conhecimento para me tornar excelente naquilo que faço.
-                </p>
-                <p>
-                    Atualmente sou estudante de Desenvolvimento de Software na <em><a id="link-trybe" href="https://betrybe.com/" target="_blank">Trybe</a></em>, uma escola que busca entregar aos seus alunos não somente um ensino de qualidade, mas transformá-los como profissionais e pessoas. Na Trybe trabalhamos soft skills, somos incentivados ao trabalho em equipe e às boas práticas de desenvolvimento de software e simulamos um ambiente real de desenvolvimento.
-                </p>
-            </div>
-        </section>
-        
-    </body>
+      <div class="about-text">
+        <h2 class="about-title">Sobre mim...</h2>
+        <p>
+          Comecei minha carreira profissional na indústria, mas o
+          <strong>desenvolvimento de software</strong> é o que eu amo fazer. Sou
+          apaixonado por tecnologia e desde que descobri minha vocação
+          profissional, me empenho em adquirir conhecimento para me tornar
+          excelente naquilo que faço.
+        </p>
+        <p>
+          Atualmente sou estudante de Desenvolvimento de Software na
+          <em
+            ><a id="link-trybe" href="https://betrybe.com/" target="_blank"
+              >Trybe</a
+            ></em
+          >, uma escola que busca entregar aos seus alunos não somente um ensino
+          de qualidade, mas transformá-los como profissionais e pessoas. Na
+          Trybe trabalhamos soft skills, somos incentivados ao trabalho em
+          equipe e às boas práticas de desenvolvimento de software e simulamos
+          um ambiente real de desenvolvimento.
+        </p>
+      </div>
+    </section>
+  </body>
 </html>
