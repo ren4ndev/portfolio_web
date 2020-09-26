@@ -173,6 +173,30 @@ body {
   flex-direction: column;
 }
 
+.footer {
+  background-color: rgb(27, 58, 75);
+  flex-direction: column;
+  margin: 0;
+  width: 100%;
+}
+.social-footer {
+  align-items: center;
+  width: 100%;
+}
+
+.social-list {
+  justify-content: space-evenly;
+  padding: 0;
+}
+
+.social-item {
+  list-style: none;
+}
+
+.social-img {
+  width: 30px;
+}
+
 @media screen and (min-width: 1366px) {
   .header-container {
     background-color: rgb(39, 38, 64);
