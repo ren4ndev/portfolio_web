@@ -85,7 +85,7 @@ body {
   align-items: center;
   background-color: rgb(0, 100, 102);
   flex-direction: column;
-  /* justify-content: space-around;*/
+  justify-content: space-around;
   padding: 150px 10% 10% 10%;
 }
 
@@ -94,6 +94,23 @@ body {
   border-radius: 50%;
   width: 40%;
 }
+
+.about-text {
+  background-color: rgba(39, 38, 64, 0.95);
+  border-radius: 10px;
+  color: white;
+  font-family: Alata, sans-serif;
+  margin-top: 30px;
+  padding: 5%;
+  text-align: center;
+  width: 100%;
+}
+
+#link-trybe {
+  color: rgb(0, 100, 102);
+  text-decoration: none;
+}
+
 /* .header-container {
   box-sizing: border-box;
   display: flex;
@@ -147,9 +164,7 @@ body {
 
 
 
-.about-text {
-  width: 50%;
-} */
+ */
 
 @media screen and (min-width: 1366px) {
   .header-container {
