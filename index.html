@@ -22,11 +22,10 @@
 
   <body>
     <header class="header flex-container">
-
       <div class="header-title flex-container">
         <div class="title-container flex-container">
           <i class="large material-icons">devices</i>
-          <h1 class="title-name"> Renan Oliveira</h1>
+          <h1 class="title-name">Renan Oliveira</h1>
         </div>
         <div class="subtitle-container flex-container">
           <i class="large material-icons">code</i>
@@ -36,7 +35,9 @@
 
       <nav class="menu flex-container">
         <ul class="menu-list flex-container">
-          <li class="menu-item"><a class="menu-link selected" href="#sobre">Sobre</a></li>
+          <li class="menu-item">
+            <a class="menu-link selected" href="#sobre">Sobre</a>
+          </li>
           <li class="menu-item"><a class="menu-link" href="#">Projetos</a></li>
           <li class="menu-item"><a class="menu-link" href="#">Contato</a></li>
         </ul>
@@ -45,88 +46,127 @@
       <div class="social">
         <ul class="social-list">
           <li class="social-item">
-            <a class="social-link" href="https://github.com/ren4ndev" target="_blank"
+            <a
+              class="social-link"
+              href="https://github.com/ren4ndev"
+              target="_blank"
               ><img class="social-img" src="./img/github-image.png" alt=""
             /></a>
           </li>
           <li class="social-item">
-            <a class="social-link" href="https://www.linkedin.com/in/renancoliveira/" target="_blank"
+            <a
+              class="social-link"
+              href="https://www.linkedin.com/in/renancoliveira/"
+              target="_blank"
               ><img class="social-img" src="./img/linkedin.png" alt=""
             /></a>
           </li>
           <li class="social-item">
-            <a class="social-link" href="https://twitter.com/Ren4nDev" target="_blank"
+            <a
+              class="social-link"
+              href="https://twitter.com/Ren4nDev"
+              target="_blank"
               ><img class="social-img" src="./img/twitter.png" alt=""
             /></a>
           </li>
         </ul>
       </div>
-
     </header>
 
-    <section class="about flex-container" id="sobre">
-      <img
-        class="about-img"
-        src="./img/Foto de perfil Linkedin.png"
-        alt="Foto de perfil - Renan Oliveira"
-      />
+    <div class="gradient">
+      <section class="about flex-container" id="sobre">
+        <img
+          class="about-img"
+          src="./img/Foto de perfil Linkedin.png"
+          alt="Foto de perfil - Renan Oliveira"
+        />
 
-      <div class="about-text">
-        <h2 class="about-title">Sobre mim</h2>
-        <p>
-          Comecei minha carreira profissional na indústria, mas o
-          <strong>desenvolvimento de software</strong> é o que eu amo fazer. Sou
-          apaixonado por tecnologia e desde que descobri minha vocação
-          profissional, me empenho em adquirir conhecimento para me tornar
-          excelente naquilo que faço.
-        </p>
-        <p>
-          Atualmente sou estudante de Desenvolvimento de Software na
-          <em
-            ><a id="link-trybe" href="https://betrybe.com/" target="_blank"
-              >Trybe</a
-            ></em
-          >, uma escola que busca entregar aos seus alunos não somente um ensino
-          de qualidade, mas transformá-los como profissionais e pessoas. Na
-          Trybe trabalhamos soft skills, somos incentivados ao trabalho em
-          equipe e às boas práticas de desenvolvimento de software e simulamos
-          um ambiente real de desenvolvimento.
-        </p>
-      </div>
-
-    </section>
-
-    <section class="projects flex-container">
-
-      <h2 class="projects-title" id="projetos">Meus Projetos</h2>
-
-      <div class="card flex-container">
-        <div class="card-picture" >
-          <img class="card-img" src="./img/todo-list.png" alt="Captura de tela de Projeto To Do List">
+        <div class="about-text">
+          <h2 class="about-title">Sobre mim</h2>
+          <p>
+            Comecei minha carreira profissional na indústria, mas o
+            <strong>desenvolvimento de software</strong> é o que eu amo fazer.
+            Sou apaixonado por tecnologia e desde que descobri minha vocação
+            profissional, me empenho em adquirir conhecimento para me tornar
+            excelente naquilo que faço.
+          </p>
+          <p>
+            Atualmente sou estudante de Desenvolvimento de Software na
+            <em
+              ><a id="link-trybe" href="https://betrybe.com/" target="_blank"
+                >Trybe</a
+              ></em
+            >, uma escola que busca entregar aos seus alunos não somente um
+            ensino de qualidade, mas transformá-los como profissionais e
+            pessoas. Na Trybe trabalhamos soft skills, somos incentivados ao
+            trabalho em equipe e às boas práticas de desenvolvimento de software
+            e simulamos um ambiente real de desenvolvimento.
+          </p>
         </div>
-        <div class="description flex-container">
-          <h4 class="card-title"><a class="card-link" href="">Projeto ToDo List</a></h4>
-          <p class="card-description">Projeto acadêmico realizado para praticar a manipulação de objetos DOM com JavaScript Vanilla</p>
-        </div>
-      </div>
+      </section>
 
-    </section>
+      <section class="projects flex-container">
+        <h2 class="projects-title" id="projetos">Meus Projetos</h2>
+
+        <div class="card flex-container">
+          <div class="card-picture todo-list"></div>
+          <div class="description flex-container">
+            <h4 class="card-title">
+              <a class="card-link" href="">Projeto ToDo List</a>
+            </h4>
+            <p class="card-description">
+              Projeto acadêmico realizado para praticar a manipulação de objetos
+              DOM com JavaScript Vanilla
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="articles flex-container">
+        <h2 class="articles-title" id="projetos">Artigos</h2>
+
+        <div class="card flex-container">
+          <div class="card-picture produtividade"></div>
+          <div class="description flex-container">
+            <h4 class="card-title">
+              <a class="card-link" href=""
+                >Produtividade - como está o seu desempenho?</a
+              >
+            </h4>
+            <p class="card-description">
+              Já chegou na sexta-feira e teve a sensação de que sua semana não
+              foi produtiva? Esse artigo fala sobre técnicas que podemos usar
+              para melhorar a nossa produtividade
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
 
     <footer class="footer flex-container">
       <div class="social-footer">
         <ul class="social-list flex-container">
           <li class="social-item">
-            <a class="social-link" href="https://github.com/ren4ndev" target="_blank"
+            <a
+              class="social-link"
+              href="https://github.com/ren4ndev"
+              target="_blank"
               ><img class="social-img" src="./img/github-image.png" alt=""
             /></a>
           </li>
           <li class="social-item">
-            <a class="social-link" href="https://www.linkedin.com/in/renancoliveira/" target="_blank"
+            <a
+              class="social-link"
+              href="https://www.linkedin.com/in/renancoliveira/"
+              target="_blank"
               ><img class="social-img" src="./img/linkedin.png" alt=""
             /></a>
           </li>
           <li class="social-item">
-            <a class="social-link" href="https://twitter.com/Ren4nDev" target="_blank"
+            <a
+              class="social-link"
+              href="https://twitter.com/Ren4nDev"
+              target="_blank"
               ><img class="social-img" src="./img/twitter.png" alt=""
             /></a>
           </li>
