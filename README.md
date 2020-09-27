@@ -1,20 +1,22 @@
 # Portfólio e Perfil no GitHub Pages
 
-Esse repositório contém os arquivos do projeto do meu portfólio pessoal. Este é um projeto pessoal, para exercitar os conhecimentos adiquiridos em desenvolvimento Web e ao mesmo tempo divulgar meus projetos na 
+Esse repositório contém os arquivos do projeto do meu portfólio pessoal. Este é um projeto pessoal, para exercitar os conhecimentos adiquiridos em desenvolvimento Web e ao mesmo tempo divulgar meus projetos pessoais, acadêmicos, profissionais e artigos sobre soft skills. 
 Esse _[aqui](https://www.linkedin.com/in/renancoliveira/)_ é o meu link do LinkedIn e convido a quem quiser se conectar comigo lá.
 
-Abaixo segue uma lista da estruturação e das etapas do desenvolvimento do projeto: :rocket:
+##### Abaixo segue uma lista da estruturação e das etapas do desenvolvimento do projeto: :rocket:
 
+- [X] Definição da estrutura e layout da página
+- [X] Definição da paleta de cores usada no site
 - [X] Estruturação inicial da página estática (HTML)
-- [X] Iniciando o cabeçalho
-- [X] Cabeçalho finalizado
-- [ ] Definição de layout e conteúdo
-- [ ] Criação do conteúdo
-- [ ] Reestruturação do HTML
-- [ ] Estilização em CSS de acordo com o layout
-- [ ] Adição da página Projetos
-- [ ] Adição da página Sobre
-- [ ] Adição da página Contato
-- [ ] Tornando o site responsivo
+- [X] Criação do Cabeçalho
+- [X] Criação da seção Sobre
+- [X] Criação da seção Projetos
+- [ ] Criação da seção Artigos
+- [X] Criação do Rodapé
+- [ ] Estilização em CSS mobile first
+- [ ] Criação das media queries 
 - [ ] Resolvendo problemas de acessibilidade
 - [ ] Adicionando interações e animações à página
+- [ ] Verificando qualidade do código com testes automatizados
+- [ ] Adição de conteúdo à seção Projetos
+- [ ] Adiçao de conteúdo à seção Artigos
