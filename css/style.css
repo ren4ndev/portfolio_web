@@ -156,11 +156,11 @@ body {
 }
 
 .todo-list {
-  background-image: url(../img/todo-list.png);
+  background-image: url('../imgs/projects/todo-list.png');
 }
 
 .produtividade {
-  background-image: url("../img/produtividade_baixa.jpg");
+  background-image: url('../imgs/projects/produtividade_baixa.jpg');
 }
 
 .card-title {
@@ -205,8 +205,10 @@ body {
 }
 
 .footer {
+  align-items: center;
   background-color: rgb(39, 38, 64);
   flex-direction: column;
+  justify-content: space-around;
   margin: 0;
   width: 100%;
 }
@@ -226,6 +228,17 @@ body {
 
 .social-img {
   width: 30px;
+}
+
+.reference {
+  color: rgba(108, 117, 125, 0.3);
+  font-size: 0.3em;
+  margin-bottom: 5px;
+}
+
+.reference a {
+  color: rgba(108, 117, 125, 0.3);
+  text-decoration: none;
 }
 
 @media screen and (min-width: 1366px) {
