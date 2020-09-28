@@ -11,9 +11,9 @@ Esse _[aqui](https://www.linkedin.com/in/renancoliveira/)_ é o meu link do Link
 - [X] Criação do Cabeçalho
 - [X] Criação da seção Sobre
 - [X] Criação da seção Projetos
-- [ ] Criação da seção Artigos
+- [X] Criação da seção Artigos
 - [X] Criação do Rodapé
-- [ ] Estilização em CSS mobile first
+- [X] Estilização em CSS mobile first
 - [ ] Criação das media queries 
 - [ ] Resolvendo problemas de acessibilidade
 - [ ] Adicionando interações e animações à página
