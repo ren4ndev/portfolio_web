@@ -60,6 +60,7 @@ body {
 .menu-list {
   display: flex;
   flex-basis: 160px;
+  font-weight: 600;
   justify-content: space-between;
   padding: 0;
 }
@@ -75,7 +76,7 @@ body {
 }
 
 .selected {
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.7);
 }
 
 .social {
@@ -221,7 +222,7 @@ body {
   width: 100%;
 }
 
-.social-list {
+.social-footer-list {
   justify-content: space-evenly;
   padding: 0;
 }
@@ -266,8 +267,12 @@ body {
   }
 
   .menu {
-    font-size: 0.8em;
+    font-size: 0.9em;
     flex-basis: 30%;
+  }
+
+  .menu-list {
+    flex-basis: 200px;
   }
 
   .projects, .articles {
@@ -277,6 +282,28 @@ body {
 }
 
 @media screen and (min-width: 1024px) {
+  .header {
+    height: 100px;
+  }
+
+  .header-title {
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .social {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    flex-basis: 30%;
+  }
+
+  .social-list {
+    justify-content: space-evenly;
+    padding: 0;
+    width: 80%;
+  }
+
   .about {
     flex-flow: row nowrap;
     justify-content: space-between;
