@@ -15,6 +15,7 @@ body {
   box-sizing: border-box;
   color: white;
   flex-direction: column;
+  height: 127px;
   justify-content: space-between;
   padding: 0 10%;
   position: fixed;
@@ -245,6 +246,30 @@ body {
 }
 
 @media screen and (min-width: 700px) {
+  .header {
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+  .header-title {
+    justify-content: center;
+    flex-basis: 50%;
+  }
+
+  .title-container {
+    flex-basis: 30%;
+  }
+
+  .subtitle-container {
+    flex-basis: 30%;
+  }
+
+  .menu {
+    font-size: 0.8em;
+    flex-basis: 30%;
+  }
+
   .projects, .articles {
     flex-flow: row wrap;
     justify-content: space-evenly;
@@ -258,7 +283,8 @@ body {
     padding: 180px 5% 30px;
   }
   .about-text {
-    margin: 0 30px;
+    margin-left: 60px;
     padding: 2em;
   }
+
 }
