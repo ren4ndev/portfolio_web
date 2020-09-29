@@ -33,6 +33,11 @@ checks:
 exclude_patterns:
 - "node_modules/"
 - "test/"
+- "projects/"
+- "imgs/"
+- "css/materialize.min.css"
+- "js/materialize.min.js"
+- "README.md"
 plugins:
   editorconfig:
     enabled: true
