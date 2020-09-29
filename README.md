@@ -15,8 +15,10 @@ Esse _[aqui](https://www.linkedin.com/in/renancoliveira/)_ é o meu link do Link
 - [X] Criação do Rodapé
 - [X] Estilização em CSS mobile first
 - [X] Criação das media queries 
-- [ ] Resolvendo problemas de acessibilidade
+- [X] Verificação de issues e problemas de sintaxe
 - [ ] Adicionando interações e animações à página
+- [ ] Resolvendo problemas de acessibilidade
 - [ ] Verificando qualidade do código com testes automatizados
 - [ ] Adição de conteúdo à seção Projetos
 - [ ] Adiçao de conteúdo à seção Artigos
+- [ ] Verificação de issues e problemas de sintaxe
