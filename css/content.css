@@ -66,12 +66,12 @@ body {
 }
 
 .menu-item {
+  font-size: 1.1em;
   list-style: none;
 }
 
 .menu-link {
   color: white;
-  font-size: 1.1em;
   text-decoration: none;
 }
 
@@ -102,7 +102,7 @@ body {
   width: 100%;
 }
 
-.content-title, .content-pretext, .content-paragraph {
+.content-title , .content-pretext , .content-paragraph {
   margin: 0;
   padding: 30px 10%;
 }
@@ -124,7 +124,7 @@ body {
   font-size: 1.1em;
   font-weight: 100;
   margin: 0;
-  padding: 1.1em 10% 1.1em;
+  padding: 1.1em 10%;
 }
 
 .footer {
@@ -231,7 +231,8 @@ body {
 
 }
 
-@media screen and ( min-width: 1366px ) {
+@media screen and ( min-width : 1366px ) {
+
   body {
     margin: 0 auto;
     max-width: 1366px;
