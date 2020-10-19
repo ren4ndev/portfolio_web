@@ -155,8 +155,13 @@ body {
 
 .card-picture {
   background-size: cover;
+  background-position: center;
   border-radius: 15px;
   height: 160px;
+}
+
+.meme-generator {
+  background-image: url(../imgs/projects/meme_generator_card.png);
 }
 
 .playground-functions {

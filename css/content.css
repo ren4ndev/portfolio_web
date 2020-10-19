@@ -1,5 +1,5 @@
 body {
-  font-family: Roboto, sans-serif;
+  font-family: Commissioner, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -102,7 +102,7 @@ body {
   width: 100%;
 }
 
-.content-title , .content-pretext , .content-paragraph {
+.content-title , .content-pretext , .content-paragraph , .content-subtitle {
   margin: 0;
   padding: 30px 10%;
 }
@@ -111,6 +111,12 @@ body {
   text-align: center;
   font-size: 1.7em;
   font-weight: 600;
+}
+
+.content-subtitle {
+  font-size: 1.3em;
+  margin: 0;
+  padding: 30px 10% 0;
 }
 
 .content-pretext {
@@ -125,6 +131,17 @@ body {
   font-weight: 100;
   margin: 0;
   padding: 1.1em 10%;
+}
+
+.content-list {
+  font-size: 1.1em;
+  margin: 0;
+  padding: 30px 15%;
+}
+
+.content-list-item {
+  margin: 0;
+  padding: 1em;
 }
 
 .footer {
@@ -252,7 +269,7 @@ body {
     font-size: 1.5em;
   }
 
-  .content-paragraph {
+  .content-paragraph , .content-list {
     font-size: 1.4em;
   }
 
