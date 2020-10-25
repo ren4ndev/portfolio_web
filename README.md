@@ -21,4 +21,3 @@ Esse _[aqui](https://www.linkedin.com/in/renancoliveira/)_ é o meu link do Link
 - [ ] Verificando qualidade do código com testes automatizados
 - [ ] Adição de conteúdo à seção Projetos
 - [ ] Adiçao de conteúdo à seção Artigos
-- [ ] Verificação de issues e problemas de sintaxe
