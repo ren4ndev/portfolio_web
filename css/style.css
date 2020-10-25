@@ -172,6 +172,10 @@ body {
   background-image: url( '../imgs/projects/todo-list.png' );
 }
 
+.aprender-a-aprender {
+  background-image: url( '../imgs/articles/aprender_a_aprender_cover.jpg' );
+}
+
 .produtividade {
   background-image: url( '../imgs/projects/produtividade_baixa.jpg' );
 }
