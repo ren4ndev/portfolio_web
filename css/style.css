@@ -176,6 +176,10 @@ body {
   background-image: url( '../imgs/articles/aprender_a_aprender_cover.jpg' );
 }
 
+.trybe {
+  background-image: url( '../imgs/articles/trybe_capa.png' );
+}
+
 .produtividade {
   background-image: url( '../imgs/projects/produtividade_baixa.jpg' );
 }
