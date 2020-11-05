@@ -168,6 +168,10 @@ body {
   background-image: url( '../imgs/projects/playground-functions.png' );
 }
 
+.pixels-art {
+  background-image: url( '../imgs/projects/pixels_art_cover.png' );
+}
+
 .todo-list {
   background-image: url( '../imgs/projects/todo-list.png' );
 }
